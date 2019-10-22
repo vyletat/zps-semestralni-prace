@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Tomas Vyleta">
+
+    <!-- Icon next to the title -->
+    <link rel="shortcut icon" type="image/x-icon" href="../pic/icons/icon.png"/>
+    <title>Valprojekt</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Google Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- JavaScript files-->
+    <script src="../js/login.js"></script>
+
+    <!-- CSS files-->
+    <link rel="stylesheet" href="../css/signin.css">
+</head>
+
+<body class="text-center">
+<form class="form-signin">
+    <img class="mb-4" src="../pic/icons/valprojekt.jpg" alt="Valprojekt logo" style="width:300px; max-height:100%">
+    <h1 class="h3 mb-3 font-weight-normal">Prosím, přihlašte se</h1>
+    <label for="inputNickname" class="sr-only">Nickname</label>
+    <input type="text" id="inputNickname" class="form-control" placeholder="Login" required autofocus>
+
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Heslo" required>
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Pamatuj si mě
+        </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="validateLogin()">Přihlásit se</button>
+    <div class="alert alert-danger fade hide" role="alert">
+        Spatne zadany uzivatel nebo heslo.
+    </div>
+</form>
+</body>
+</html>

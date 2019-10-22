@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <full-name>Tomáš Vyleta</full-name>
+        <position>CEO</position>
+        <email>vyleta.tom@gmail.com</email>
+        <phone-number>724 925 898</phone-number>
+        <username>Atelyv</username>
+    </employee>
+    <employee>
+        <id>2</id>
+        <full-name>Viktor Hnízdil</full-name>
+        <position>Vice President</position>
+        <email>ViktorHnizdil@rhyta.com</email>
+        <phone-number>467 867 966</phone-number>
+        <username>Wousublat</username>
+    </employee>
+    <employee>
+        <id>3</id>
+        <full-name>Ivana Navrátilová</full-name>
+        <position>Manager</position>
+        <email>IvanaNavratilova@jourrapide.com</email>
+        <phone-number>470 643 449</phone-number>
+        <username>Wersed</username>
+    </employee>
+    <employee>
+        <id>4</id>
+        <full-name>Květoslava Janková</full-name>
+        <position>IT Manager</position>
+        <email>KvetoslavaJankova@jourrapide.com</email>
+        <phone-number>721 544 326</phone-number>
+        <username>Quidepimine</username>
+    </employee>
+    <employee>
+        <id>5</id>
+        <full-name>Jan Lorenc</full-name>
+        <position>Marketing Manager</position>
+        <email>JanLorenc@armyspy.com</email>
+        <phone-number>472 293 273</phone-number>
+        <username>Doill1989</username>
+    </employee>
+    <employee>
+        <id>6</id>
+        <full-name>Radka Minaříková</full-name>
+        <position>Planner</position>
+        <email>RadkaMinarikova@jourrapide.com</email>
+        <phone-number>315 350 432</phone-number>
+        <username>Himmuch</username>
+    </employee>
+    <employee>
+        <id>7</id>
+        <full-name>Marek Bendík</full-name>
+        <position>Planner</position>
+        <email>MarekBendik@armyspy.com</email>
+        <phone-number>582 125 376</phone-number>
+        <username>Nablowand</username>
+    </employee>
+    <employee>
+        <id>8</id>
+        <full-name>Ludmila Eliášová</full-name>
+        <position>Planner</position>
+        <email>LudmilaEliasova@teleworm.us</email>
+        <phone-number>720 197 335</phone-number>
+        <username>Tweattedier95</username>
+    </employee>
+    <employee>
+        <id>9</id>
+        <full-name>Marek Fridrich</full-name>
+        <position>Terrain Specialist</position>
+        <email>MarekFridrich@dayrep.com</email>
+        <phone-number>738 419 240</phone-number>
+        <username>Portione90</username>
+    </employee>
+    <employee>
+        <id>10</id>
+        <full-name>Aleš Švéda</full-name>
+        <position>Designer</position>
+        <email>AlesSveda@jourrapide.com</email>
+        <phone-number>730 049 369</phone-number>
+        <username>Fearch</username>
+    </employee>
+    <employee>
+        <id>11</id>
+        <full-name>Stanislav Linhart</full-name>
+        <position>Photographer</position>
+        <email>StanislavLinhart@rhyta.com</email>
+        <phone-number>370 011 601</phone-number>
+        <username>Frie1957</username>
+    </employee>
+    <employee>
+        <id>12</id>
+        <full-name>Zdeňka Houdová</full-name>
+        <position>Secretary</position>
+        <email>ZdenkaHoudova@teleworm.us</email>
+        <phone-number>385 307 368</phone-number>
+        <username>Inceed</username>
+    </employee>
+</employees>

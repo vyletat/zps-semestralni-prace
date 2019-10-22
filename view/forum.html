@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Tomas Vyleta">
+
+    <!-- Icon next to the title -->
+    <link rel="shortcut icon" type="image/x-icon" href="../pic/icons/icon.png"/>
+    <title>Valprojekt - Dotazy</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Google Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google reCAPTCHA v2 -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- JavaScript files-->
+    <script>
+        var onloadCallback = function () {
+            grecaptcha.render('html_element', {
+                'sitekey': '6LdayboUAAAAAAtSvuKwj30b_jnS9OJ-RfrkcUVI'
+            });
+        };
+    </script>
+
+    <!-- CSS files-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark sticky-top justify-content-between">
+    <!-- Main brand with href to home -->
+    <a class="navbar-brand" href="../index.html">Valprojekt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <!-- Left navbar -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="kontakty.html">Kontakty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reference.html">Reference</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sluzby.html">Nabídka služeb</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="album-1.html">Album</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="forum.html">Dotazy</a>
+            </li>
+            <!-- DropDown menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Mimo správu</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="tabulka.html"> Tabulka<span class="sr-only">(current)</span></a>
+                </div>
+            </li>
+        </ul>
+        <!-- Right navbar -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="sign-in.html" target="_blank">Správa</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- Comment contains from ... -->
+    <div class="container">
+
+        <div class="container">
+            <h1 class="page-title display-4">Dotazy</h1>
+        </div>
+        <div id="comments">
+            <!-- comment-block is a div element for question and answer ... -->
+            <div class="comment-block">
+                <!-- ... comments, whitch are the questions from users ... -->
+                <div class="comment">
+                    <div class="comment-title-body">
+                        <h5 class="comment-title">Dotaz 1</h5>
+                        <p class="comment-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam viverra
+                            aliquet
+                            tellus, nec varius sem maximus iaculis. Aenean pharetra nisl non auctor dictum. Integer
+                            euismod
+                            quis
+                            lorem nec porttitor. Pellentesque cursus ex erat, in fringilla augue eleifend eget. Nulla
+                            pellentesque metus quis tellus finibus pharetra. Donec tempus molestie sapien, a rhoncus
+                            nisi
+                            hendrerit id. Aenean ipsum purus, dapibus egestas nibh quis, dapibus dictum est. Ut lorem
+                            nulla,
+                            convallis a laoreet vel, eleifend sed massa. Mauris nulla enim, tincidunt quis scelerisque
+                            in,
+                            blandit in nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in
+                            aliquam
+                            est.
+                            Ut non erat a enim convallis mattis in eu urna.</p>
+                    </div>
+                    <div class="comment-name-date row justify-content-between">
+                        <p class="comment-name col-auto"><i>Ota Pavel</i></p>
+                        <p class="comment-date col-auto"><i>Wednesday, 27 November 2019</i></p>
+                    </div>
+                </div>
+
+                <!-- ... and comment-answer, that is answer from someone of company. -->
+                <div class="comment-answer">
+                    <div class="comment-answer-person-body">
+                        <h6 class="comment-answer-person">Tomáš Vyleta odpověděl:</h6>
+                        <p class="comment-answer-body">ellentesque cursus ex erat, in fringilla augue eleifend eget.
+                            Nulla
+                            pellentesque metus quis tellus finibus pharetra. Donec tempus molestie sapien, a rhoncus
+                            nisi
+                            hendrerit id. Aenean ipsum purus, dapibus egestas nibh quis, dapibus dictum est. Ut lorem
+                            nulla,
+                            convallis a laoreet vel, eleifend sed massa.</p>
+                    </div>
+                    <div class="comment-answer-date">
+                        <p>Wednesday, 27 November 2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-block">
+                <div class="comment">
+                    <div class="comment-title-body">
+                        <h5 class="comment-title">Dotaz 2</h5>
+                        <p class="comment-body">Suspendisse laoreet posuere nisl sed facilisis. Donec fermentum ex in
+                            lacus
+                            maximus viverra. Nunc a leo mi. Duis at orci id nibh imperdiet porttitor sed nec nulla.
+                            Pellentesque
+                            sodales dui sed urna euismod interdum. Donec vel laoreet erat, vitae aliquet sapien. Sed
+                            tincidunt
+                            ultrices felis, id cursus neque lacinia vitae.</p>
+                    </div>
+                    <div class="comment-name-date row justify-content-between">
+                        <p class="comment-name col-auto"><i>Simona Václavová</i></p>
+                        <p class="comment-date col-auto"><i>Monday, 21 October 2019</i></p>
+                    </div>
+                </div>
+                <div class="comment-answer">
+                    <div class="comment-answer-person-body">
+                        <h6 class="comment-answer-person">Tomáš Vyleta odpověděl:</h6>
+                        <p class="comment-answer-body">ellentesque cursus ex erat, in fringilla augue eleifend eget.
+                            Nulla
+                            pellentesque metus quis tellus finibus pharetra. Donec tempus molestie sapien, a rhoncus
+                            nisi
+                            hendrerit id. Aenean ipsum purus, dapibus egestas nibh quis, dapibus dictum est. Ut lorem
+                            nulla,
+                            convallis a laoreet vel, eleifend sed massa.</p>
+                    </div>
+                    <div class="comment-answer-date">
+                        <p>Wednesday, 27 November 2019</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment-block">
+                <div class="comment">
+                    <div class="comment-title-body">
+                        <h5 class="comment-title">Dotaz 3</h5>
+                        <p class="comment-body">In consequat est nec eros egestas vehicula. Maecenas ultrices fringilla
+                            risus
+                            nec imperdiet. Nullam vestibulum felis vel porta luctus. Proin sed volutpat risus. Morbi
+                            augue
+                            lacus, ullamcorper sed gravida at, ultrices ac magna. Duis vitae dignissim elit, sed
+                            suscipit
+                            augue.
+                            In hac habitasse platea dictumst. Nunc justo augue, facilisis eget velit sit amet, semper
+                            viverra
+                            mauris. Nam hendrerit turpis fringilla finibus tincidunt. Vestibulum molestie lorem et massa
+                            fermentum, sed consequat eros porttitor. Maecenas interdum neque eu porta convallis. Proin
+                            eu
+                            ante
+                            quis enim pulvinar malesuada. Integer vel sapien arcu. Sed eros elit, suscipit gravida
+                            posuere
+                            ac,
+                            sagittis condimentum purus.</p>
+                    </div>
+                    <div class="comment-name-date row justify-content-between">
+                        <p class="comment-name col-auto"><i>Jakub Gábor</i></p>
+                        <p class="comment-date col-auto"><i>Tuesday, 5 February 2019</i></p>
+                    </div>
+                </div>
+                <div class="comment-answer">
+                    <div class="comment-answer-person-body">
+                        <h6 class="comment-answer-person">Tomáš Vyleta odpověděl:</h6>
+                        <p class="comment-answer-body">ellentesque cursus ex erat, in fringilla augue eleifend eget.
+                            Nulla
+                            pellentesque metus quis tellus finibus pharetra. Donec tempus molestie sapien, a rhoncus
+                            nisi
+                            hendrerit id. Aenean ipsum purus, dapibus egestas nibh quis, dapibus dictum est. Ut lorem
+                            nulla,
+                            convallis a laoreet vel, eleifend sed massa.</p>
+                    </div>
+                    <div class="comment-answer-date">
+                        <p>Wednesday, 27 November 2019</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div id="comment-form">
+            <!-- This is a form for question -->
+            <form action="forum-display.php" method="post" target="_blank" accept-charset="UTF-8">
+                <fieldset>
+                    <legend>Místo pro vaše dotazy...</legend>
+                    <br>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstname">Jméno</label>
+                            <input name="first-name" type="text" class="form-control" id="inputFirstname"
+                                   placeholder="First name"
+                                   required>
+                            <div class="invalid-feedback">
+                                Prosím vyplňte jméno.
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastname">Příjmení</label>
+                            <input name="last-name" type="text" class="form-control" id="inputLastname"
+                                   placeholder="Last name" required>
+                            <div class="invalid-feedback">
+                                Prosím vyplňte příjmení.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTitle">Nadpis</label>
+                        <input name="title" type="text" class="form-control" id="inputTitle" placeholder="Title">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputText">Obsah</label>
+                        <textarea name="text" class="form-control" id="inputText" rows="4" placeholder="Text here..."
+                                  required></textarea>
+                        <div class="invalid-feedback">
+                            Prosím vyplňte dotaz.
+                        </div>
+                    </div>
+
+                    <!-- Google reCAPTCHA -->
+                    <div class="g-recaptcha" data-sitekey="6LdayboUAAAAAAtSvuKwj30b_jnS9OJ-RfrkcUVI"></div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-auto align-self-center">
+                            <button class="btn btn-primary" type="submit">Dotázat se</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- Footer, under the main container -->
+<footer class="container">
+    <div class="footer-list row justify-content-around">
+        <div class="col-2">
+            <h5>Záložka</h5>
+            <ul class="list-unstyled text-small">
+                <li>
+                    <a class="text-muted" href="kontakty.html">Kontakty</a>
+                </li>
+                <li>
+                    <a class="text-muted" href="reference.html">Reference</a>
+                </li>
+                <li>
+                    <a class="text-muted" href="sluzby.html">Nabídka služeb</a>
+                </li>
+                <li>
+                    <a class="text-muted" href="album-1.html">Album</a>
+                </li>
+                <li>
+                    <a class="text-muted" href="forum.html">Dotazy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <h5>Kontakt</h5>
+            <p>
+                Partyzánská 93,<br/>
+                Podbořany<br/>
+                44101
+            </p>
+        </div>
+        <div class="col-3">
+            <h5>Rychlé hledání</h5>
+            <!-- Form and input for Google search -->
+            <form action="https://google.com/search" method="get" target="_blank">
+                <input class="footer-google-search-input form-control" type="text" name="q"
+                       placeholder="Hledej na Google..."/>
+                <button class="footer-google-search-submit btn btn-info" type="submit">Hledat</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-author">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <small>Tomáš Vyleta, <a href="mailto:vyleta.tom@gmail.com">vyleta.tom@gmail.com</a>, &copy; 2019</small>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <!-- img class="mb-2" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"-->
+                <small>Write with <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a>.</small>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- reCAPTCHA script -->
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+</body>
+</html>
