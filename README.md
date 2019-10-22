@@ -1,0 +1,1 @@
+# zps-semestralni-prace
